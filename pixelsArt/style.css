@@ -1,0 +1,54 @@
+body{
+  width:  800px;
+  height: 600px;
+  margin: auto;
+}
+
+.color{
+  display: flex;
+  border: 1px solid black;
+  margin: 1px;
+  width:  80px;
+  height: 80px;
+}
+
+#color-palette{
+  display: flex;
+  flex-direction: row;
+}
+
+.linha{
+  display: table-row;
+  padding: 0;
+}
+
+.coluna{
+  display: table-cell;
+  padding: 0;
+}
+
+#pixel-board{
+  width: 800px;
+  height: 600px;
+  display: table;
+  padding: 5px;
+}
+
+.pixel{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+#black{
+  background-color: black;
+}
+#yellow{
+  background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+#purple{
+  background-color: purple;
+}
